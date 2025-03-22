@@ -1,2 +1,9 @@
-# ai-sentiment-analysis
-Analysis of YouTube comment sentiment in videos about GPT and Gemini
+# Ai Sentiment Analysis
+
+# About the project
+In the world of artificial intelligence, people have different opinions about it. In this project, we will analyze the sentiment of comments about AI using two popular videos about GPT and Gemini.
+
+# Resources
+Video from YouTube channel [Fireship](https://www.youtube.com/@Fireship)
+- [Video about GPT](https://youtu.be/FW2XOIxaNqg?si=jaz2trhQh1VZCgQD)
+- [Video about Gemini](https://youtu.be/k9xbh9LUYn0?si=Xri8VEv4VPAFk2FX)
