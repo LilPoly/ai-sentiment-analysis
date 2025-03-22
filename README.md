@@ -16,3 +16,22 @@ Next installing a library for working with YouTube:
 pip install google-api-python-client
 ```
 commentThreads().list() — API method for getting a list of comments for a given video (videoId=video link).
+
+The comments may contain emojis, Cyrillic and other non-ASCII characters, so we will remove them.
+``` python
+def remove_emojis(text):
+    return re.sub(r'[^\x00-\x7F]+', '', text)
+```
+Next create a dataframe with our received comments, apply the remove_emojis function and remove spaces
+``` python
+df = pd.DataFrame(comments, columns=['comments'])
+df['comments'] = df['comments'].apply(remove_emojis)
+df = df[df['comments'].str.strip() != '']
+```
+|       | Comment                                                                 |
+|-------|-------------------------------------------------------------------------|
+| 0     | The greatest innovation OpenAI can make is to ...                        |
+| 1     | Yes, I also hear like this when it just release                          |
+| 2     | I'm using 4.5 for interpreting case law, it's ...                        |
+| 3     | 0:23 best movie ever lmao                                                |
+| 4     | Q tristeza                                                             |
