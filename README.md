@@ -102,4 +102,4 @@ There are words like "bad", "useless" which say that some people just don't like
 # Why is there an analysis with Gemini?
 I was really surprised by the number of negative comments, which significantly outnumbered the positive ones. I thought that maybe it was because people didn't like the GPT, not the AI. That's why I did the same analysis with the comments under the video about Gemini.
 
-
+![plot_gemini](./img/plot_gemini.png)
