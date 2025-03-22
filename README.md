@@ -119,3 +119,6 @@ You can also look at WordClouds with positive comments: [IMG folder](./img)
 It's wrong to say that people don't like AI based on just two videos. But if we talk about the almost 2k comments I got from the video, the majority are neutral towards artificial intelligence. A fair number of people don't like AI for various reasons: price, job replacement, excessive hype. But there are also people who definitely like AI. 
 
 **Thanks for reading!**
+
+# Note
+You can find datasets with comments received at [Datasets Folder](./datasets%20with%20comments/)
