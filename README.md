@@ -9,7 +9,8 @@ Video from YouTube channel [Fireship](https://www.youtube.com/@Fireship)
 - [Video about Gemini](https://youtu.be/k9xbh9LUYn0?si=Xri8VEv4VPAFk2FX)
 
 # Getting comments from videos
-The first step is to get the YouTube Data API v3 from [Google Cloud Console](https://console.cloud.google.com/)
+The first step is to get the YouTube Data API v3 from [Google Cloud Console](https://console.cloud.google.com/).
+
 Next installing a library for working with YouTube:
 ``` python
 pip install google-api-python-client
