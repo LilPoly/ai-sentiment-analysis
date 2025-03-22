@@ -79,8 +79,9 @@ df['sentiment'] = df['sentiment'].map({'LABEL_0':'negative', 'LABEL_1': 'neutral
 ```
 
 We do the same operation for the video about Gemini.
-[GPT Analysis](./gpt_sentiment.ipynb)
-[Gemini Analysis](./gemini_analysis.ipynb)
+
+- [GPT Analysis](./gpt_sentiment.ipynb)
+- [Gemini Analysis](./gemini_analysis.ipynb)
 
 
 
