@@ -29,8 +29,8 @@ df['comments'] = df['comments'].apply(remove_emojis)
 df = df[df['comments'].str.strip() != '']
 df.head()
 ```
-|       | Comment                                                                 |
-|-------|-------------------------------------------------------------------------|
+|       | comments                                                                 |
+|-------|--------------------------------------------------------------------------|
 | 0     | The greatest innovation OpenAI can make is to ...                        |
 | 1     | Yes, I also hear like this when it just release                          |
 | 2     | I'm using 4.5 for interpreting case law, it's ...                        |
