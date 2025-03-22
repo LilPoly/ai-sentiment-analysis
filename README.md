@@ -87,7 +87,14 @@ We do the same operation for the video about Gemini.
 The most interesting part of the project is how people really relate to the development of AI and individual famous AIs.
 
 The following distribution of sentiments is observed in the GPT:
+
 ![plot gpt](./img/plot_gpt.png)
+
+Most people are neutral. But what's more interesting is that the number of **negative comments is much higher than the number of positive comments**.
+Let's see what exactly this is connected with.
+
+Use WordCloud to see which words are used most often in negative comments
+![neg_com](./img/negative_cloud_gpt.png)
 
 
 
