@@ -15,3 +15,4 @@ Next installing a library for working with YouTube:
 ``` python
 pip install google-api-python-client
 ```
+commentThreads().list() — API method for getting a list of comments for a given video (videoId=video link).
