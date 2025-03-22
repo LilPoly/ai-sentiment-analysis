@@ -73,7 +73,14 @@ df.head()
 | 0:23 best movie ever lmao                       | LABEL_2   |
 | Q tristeza                                      | LABEL_1   |
 
+Turn labels into understandable values
+``` python
+df['sentiment'] = df['sentiment'].map({'LABEL_0':'negative', 'LABEL_1': 'neutral', 'LABEL_2':'positive'})
+```
 
+We do the same operation for the video about Gemini.
+[GPT Analysis](./gpt_sentiment.ipynb)
+[Gemini Analysis](./gemini_analysis.ipynb)
 
 
 
