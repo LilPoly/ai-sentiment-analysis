@@ -36,3 +36,12 @@ df.head()
 | 2     | I'm using 4.5 for interpreting case law, it's ...                        |
 | 3     | 0:23 best movie ever lmao                                                |
 | 4     | Q tristeza                                                             |
+
+# Model
+The analysis will be conducted using a trained model from [HuggingFace](https://huggingface.co/).
+The trained model used [cardiffnlp/twitter-roberta-base-sentiment](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment)
+
+# About Twitter-roBERTa-base for Sentiment Analysis
+This is a roBERTa-base model trained on ~58M tweets and finetuned for sentiment analysis with the TweetEval benchmark. This model is suitable for English (for a similar multilingual model, see XLM-T).
+
+Labels: 0 -> Negative; 1 -> Neutral; 2 -> Positive
