@@ -87,7 +87,7 @@ We do the same operation for the video about Gemini.
 The most interesting part of the project is how people really relate to the development of AI and individual famous AIs.
 
 The following distribution of sentiments is observed in the GPT:
-![plot gpt](./img/plot_gpt)
+![plot gpt](./img/plot_gpt.png)
 
 
 
