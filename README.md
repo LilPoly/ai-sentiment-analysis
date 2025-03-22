@@ -97,9 +97,25 @@ Use WordCloud to see which words are used most often in negative comments
 ![neg_com](./img/negative_cloud_gpt.png)
 
 In the picture we can see the word "work" and "job". Obviously there are comments that say that AI will replace people and their jobs. Nobody will be happy with that.
-There are words like "bad", "useless" which say that some people just don't like GPT. There is also the word "price" which says that people are not satisfied with the price.
+There are some bad words, which suggests that people really have a negative attitude towards GPT. There is also the word "price" which says that people are not satisfied with the price.
+It's interesting that there's also the word "hype." Some people are just tired of hearing about AI every day.
 
 # Why is there an analysis with Gemini?
 I was really surprised by the number of negative comments, which significantly outnumbered the positive ones. I thought that maybe it was because people didn't like the GPT, not the AI. That's why I did the same analysis with the comments under the video about Gemini.
 
 ![plot_gemini](./img/plot_gemini.png)
+
+Positive sentiment has increased, but negative sentiment remains. 
+Let's see what words are most popular in negative comments.
+
+![neg_gem](./img/negative_cloud_gemini.png)
+
+The situation remains the same as in WordCloud with GPT.
+
+You can also look at WordClouds with positive comments: [IMG folder](./img)
+
+# Conclusion
+
+It's wrong to say that people don't like AI based on just two videos. But if we talk about the almost 2k comments I got from the video, the majority are neutral towards artificial intelligence. A fair number of people don't like AI for various reasons: price, job replacement, excessive hype. But there are also people who definitely like AI. 
+
+**Thanks for reading!**
