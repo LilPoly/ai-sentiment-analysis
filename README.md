@@ -27,6 +27,7 @@ Next create a dataframe with our received comments, apply the remove_emojis func
 df = pd.DataFrame(comments, columns=['comments'])
 df['comments'] = df['comments'].apply(remove_emojis)
 df = df[df['comments'].str.strip() != '']
+df.head()
 ```
 |       | Comment                                                                 |
 |-------|-------------------------------------------------------------------------|
